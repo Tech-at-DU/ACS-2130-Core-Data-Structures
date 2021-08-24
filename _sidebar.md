@@ -10,8 +10,7 @@
   - [Trees](https://docs.google.com/presentation/d/1_imA_w4sr02fa1bfF4XMSydGpL4DN9gOO6LkXeTfGiE)
   - [Graphs](https://docs.google.com/presentation/d/1b3dfuE11r08OFHEagXaHfP5hpsNlTWu5LAfFzj9I7fo)
   - [Algorithm Optimization](https://docs.google.com/presentation/d/1dZ1-AdSCw2LSdP8bneJIIjhGVv-JxCfzXx4zq3o7rqw)
-  - 
-- **Assignments**
+<!-- - **Assignments**
   - [Module 1](https://www.gradescope.com/courses/248820/assignments/1038602)
   - [Module 2](https://www.gradescope.com/courses/248820/assignments/1038603)
   - [Module 3](https://www.gradescope.com/courses/248820/assignments/1038604)
@@ -22,5 +21,5 @@
   - [Module 8](https://www.gradescope.com/courses/248820/assignments/1099887)
   - [Technical Article](Assignments/TechnicalArticle.md)
 
-- **[Gradescope](https://www.gradescope.com/courses/248820)**
+- **[Gradescope](https://www.gradescope.com/courses/248820)** -->
 
