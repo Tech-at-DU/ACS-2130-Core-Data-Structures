@@ -10,16 +10,13 @@
   - [Trees](https://docs.google.com/presentation/d/1_imA_w4sr02fa1bfF4XMSydGpL4DN9gOO6LkXeTfGiE)
   - [Graphs](https://docs.google.com/presentation/d/1b3dfuE11r08OFHEagXaHfP5hpsNlTWu5LAfFzj9I7fo)
   - [Algorithm Optimization](https://docs.google.com/presentation/d/1dZ1-AdSCw2LSdP8bneJIIjhGVv-JxCfzXx4zq3o7rqw)
-<!-- - **Assignments**
-  - [Module 1](https://www.gradescope.com/courses/248820/assignments/1038602)
-  - [Module 2](https://www.gradescope.com/courses/248820/assignments/1038603)
-  - [Module 3](https://www.gradescope.com/courses/248820/assignments/1038604)
-  - [Module 4](https://www.gradescope.com/courses/248820/assignments/1038605)
-  - [Module 5](https://www.gradescope.com/courses/248820/assignments/1038607)
-  - [Module 6](https://www.gradescope.com/courses/248820/assignments/1038608)
-  - [Module 7](https://www.gradescope.com/courses/248820/assignments/1038609)
-  - [Module 8](https://www.gradescope.com/courses/248820/assignments/1099887)
+- **Assignments**
+  - [Module 1](https://www.gradescope.com/courses/296193/assignments/1435289)
+  - [Module 2](https://www.gradescope.com/courses/296193/assignments/1435290)
+  - [Module 3](https://www.gradescope.com/courses/296193/assignments/1435291)
+  - [Module 4](https://www.gradescope.com/courses/296193/assignments/1435292)
+  - [Module 5](https://www.gradescope.com/courses/296193/assignments/1435293)
+  - [Module 6](https://www.gradescope.com/courses/296193/assignments/1435295)
+  - [Module 7](https://www.gradescope.com/courses/296193/assignments/1435296)
+  - [Module 8](https://www.gradescope.com/courses/296193/assignments/1435297)
   - [Technical Article](Assignments/TechnicalArticle.md)
-
-- **[Gradescope](https://www.gradescope.com/courses/248820)** -->
-
