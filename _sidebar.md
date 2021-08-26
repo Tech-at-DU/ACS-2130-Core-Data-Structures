@@ -1,15 +1,15 @@
 *  **[Syllabus](README.md)**
 
 - **Lessons**
-  - [Number Bases](https://docs.google.com/presentation/d/1izjO_H7DJWGUtSuuc1SWZ01HIaCf4WFSyQCqKNxuPm4)
-  - [Linked Lists](https://docs.google.com/presentation/d/1K_lYh3ukPwG58mh-RnxUA8_VtrtrmPIVWQb8c1sNVhk)
-  - [Stacks & Queues](https://docs.google.com/presentation/d/11WDGP2tPgGDjTBd6QBS2oGeWg1h9ycLn5RQsFcgN0dw)
-  - [Algorithm Analysis](https://docs.google.com/presentation/d/13RiKOvjRM_MDdnnIuA9zFaj79FzbjyDD-lTmTReBjb4)
-  - [Hash Tables](https://docs.google.com/presentation/d/1iEdstlNwOJMPgG5y8YXD5FkMS6tHJEGyE5ngUicPykM)
-  - [Recursion](https://docs.google.com/presentation/d/1O8OC3XICAfVXzaulHr_9PaBKu0Mmeljg8nk7DvV-BwM)
-  - [Trees](https://docs.google.com/presentation/d/1_imA_w4sr02fa1bfF4XMSydGpL4DN9gOO6LkXeTfGiE)
-  - [Graphs](https://docs.google.com/presentation/d/1b3dfuE11r08OFHEagXaHfP5hpsNlTWu5LAfFzj9I7fo)
-  - [Algorithm Optimization](https://docs.google.com/presentation/d/1dZ1-AdSCw2LSdP8bneJIIjhGVv-JxCfzXx4zq3o7rqw)
+  - [Algorithm Analysis](https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo/edit?usp=sharing)
+  - [Linked Lists](https://docs.google.com/presentation/d/191W9PsUSSYaQNrLT64Qf6XsOPnreJh2PtIT4I7tG5i8/edit?usp=sharing)
+  - [Number Bases](https://docs.google.com/presentation/d/1QWVzQpxOuFEJQprtch3n5fFeTK1HSCyRmWoNJTYeSNs/edit?usp=sharing)
+  - [Stacks & Queues](https://docs.google.com/presentation/d/1bUWZlbnro-y6uCsO586ESgsP0-BX9AcvzjDVfOD0B-U/edit?usp=sharing)
+  - [Hash Tables](https://docs.google.com/presentation/d/1JCOxLSAAU0KTqYJFnStt97QILA02Q2oiJI6uP7Jrm10/edit?usp=sharing)
+  - [Recursion](https://docs.google.com/presentation/d/1ScT3QmrfnPx07Je1kkamrQcjxBL8sb2H5ZC4_jOP14E/edit?usp=sharing)
+  - [Trees](https://docs.google.com/presentation/d/1-xnKG8xS9JVeYbb3JR5AeN7hkCDjH63czjSNQA3LpeM/edit?usp=sharing)
+  - [Graphs](https://docs.google.com/presentation/d/1Tn9l5Qu8Y80q5edRehl46q82oLaWeBndj1SarSABIoc/edit?usp=sharing)
+  - [Algorithm Optimization](https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA/edit?usp=sharing)
 - **Assignments**
   - [Module 1](https://www.gradescope.com/courses/296193/assignments/1435289)
   - [Module 2](https://www.gradescope.com/courses/296193/assignments/1435290)

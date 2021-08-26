@@ -31,10 +31,10 @@ By the end of this course, students will be able to:
 
 ## Schedule
 
-**Course Dates:** Monday, August 23 – Friday, October 8, 2021<br>
-**Class Times:** Monday, Wednesday, Friday at 5:40pm - 7:30pm.
+**Course Dates:** Monday, August 23 – Thursday, October 7, 2021<br>
+**Class Times:** Monday, Wednesday, Thursday at 5:40pm - 7:30pm.
 
-| Class |             Topics             | Assignments Due                                   |
+| Class |             Topics             | Assignments                                       |
 | :---: | :----------------------------: | :------------------------------------------------ |
 |   1   |      [Algorithm Analysis]      |                                                   |
 |   2   |              Lab               | Module 1                                          |
@@ -56,17 +56,16 @@ By the end of this course, students will be able to:
 |  18   |            [Graphs]            |                                                   |
 |  19   | [Algorithm Optimization] & Lab | Module 7 & Technical Article                      |
 
-[Number Bases]: https://docs.google.com/presentation/d/1izjO_H7DJWGUtSuuc1SWZ01HIaCf4WFSyQCqKNxuPm4
-[Linked Lists]: https://docs.google.com/presentation/d/1K_lYh3ukPwG58mh-RnxUA8_VtrtrmPIVWQb8c1sNVhk
-[Stacks & Queues]: https://docs.google.com/presentation/d/11WDGP2tPgGDjTBd6QBS2oGeWg1h9ycLn5RQsFcgN0dw
-[Algorithm Analysis]: https://docs.google.com/presentation/d/13RiKOvjRM_MDdnnIuA9zFaj79FzbjyDD-lTmTReBjb4
-[Hash Tables]: https://docs.google.com/presentation/d/1iEdstlNwOJMPgG5y8YXD5FkMS6tHJEGyE5ngUicPykM
-[Recursion]: https://docs.google.com/presentation/d/1O8OC3XICAfVXzaulHr_9PaBKu0Mmeljg8nk7DvV-BwM
-[Trees]: https://docs.google.com/presentation/d/1_imA_w4sr02fa1bfF4XMSydGpL4DN9gOO6LkXeTfGiE
-[Graphs]: https://docs.google.com/presentation/d/1b3dfuE11r08OFHEagXaHfP5hpsNlTWu5LAfFzj9I7fo
-[Algorithm Optimization]: https://docs.google.com/presentation/d/1dZ1-AdSCw2LSdP8bneJIIjhGVv-JxCfzXx4zq3o7rqw
+[Algorithm Analysis]: https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo
+[Linked Lists]: https://docs.google.com/presentation/d/191W9PsUSSYaQNrLT64Qf6XsOPnreJh2PtIT4I7tG5i8
+[Number Bases]: https://docs.google.com/presentation/d/1QWVzQpxOuFEJQprtch3n5fFeTK1HSCyRmWoNJTYeSNs
+[Stacks & Queues]: https://docs.google.com/presentation/d/1bUWZlbnro-y6uCsO586ESgsP0-BX9AcvzjDVfOD0B-U
+[Hash Tables]: https://docs.google.com/presentation/d/1JCOxLSAAU0KTqYJFnStt97QILA02Q2oiJI6uP7Jrm10
+[Recursion]: https://docs.google.com/presentation/d/1ScT3QmrfnPx07Je1kkamrQcjxBL8sb2H5ZC4_jOP14E
+[Trees]: https://docs.google.com/presentation/d/-xnKG8xS9JVeYbb3JR5AeN7hkCDjH63czjSNQA3LpeM
+[Graphs]: https://docs.google.com/presentation/d/1Tn9l5Qu8Y80q5edRehl46q82oLaWeBndj1SarSABIoc
+[Algorithm Optimization]: https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA
 [Technical Article]: Assignments/TechnicalArticle.md
-
 
 ## Assignments
 
