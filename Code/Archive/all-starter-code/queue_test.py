@@ -64,7 +64,7 @@ class QueueTest(unittest.TestCase):
         assert q.dequeue() == 'C'
         assert q.length() == 0
         assert q.is_empty() is True
-        with self.assertRaises(ValueError):
+        with self.assertRaises(IndexError):
             q.dequeue()
 
 
