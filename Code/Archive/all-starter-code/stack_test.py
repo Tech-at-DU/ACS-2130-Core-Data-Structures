@@ -64,7 +64,7 @@ class StackTest(unittest.TestCase):
         assert s.pop() == 'A'
         assert s.length() == 0
         assert s.is_empty() is True
-        with self.assertRaises(ValueError):
+        with self.assertRaises(IndexError):
             s.pop()
 
 
