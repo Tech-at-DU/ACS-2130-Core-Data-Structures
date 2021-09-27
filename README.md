@@ -52,9 +52,9 @@ By the end of this course, students will be able to:
 |  14   |              Lab               | Module 5                                          |
 |  15   |            [Trees]             |                                                   |
 |  16   |              Lab               | Module 6                                          |
-|  17   |            [Graphs]            |                                                   |
-|  18   |            [Graphs]            |                                                   |
-|  19   | [Algorithm Optimization] & Lab | Module 7 & Technical Article                      |
+|  17   |            [Word Jumble]       |                                                   |
+|  18   |            [Word Jumble]       |                                                   |
+|  19   | [Algorithm Optimization] & Lab | Word Jumble, Module 7, Technical Article          |
 
 [Algorithm Analysis]: https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo
 [Linked Lists]: https://docs.google.com/presentation/d/191W9PsUSSYaQNrLT64Qf6XsOPnreJh2PtIT4I7tG5i8
@@ -62,10 +62,11 @@ By the end of this course, students will be able to:
 [Stacks & Queues]: https://docs.google.com/presentation/d/1bUWZlbnro-y6uCsO586ESgsP0-BX9AcvzjDVfOD0B-U
 [Hash Tables]: https://docs.google.com/presentation/d/1JCOxLSAAU0KTqYJFnStt97QILA02Q2oiJI6uP7Jrm10
 [Recursion]: https://docs.google.com/presentation/d/1ScT3QmrfnPx07Je1kkamrQcjxBL8sb2H5ZC4_jOP14E
-[Trees]: https://docs.google.com/presentation/d/-xnKG8xS9JVeYbb3JR5AeN7hkCDjH63czjSNQA3LpeM
+[Trees]: https://docs.google.com/presentation/d/1rqRcGuyOKOOCPsg1X4LSmivXC-862vnSjpl6Gz4MNxw
 [Graphs]: https://docs.google.com/presentation/d/1Tn9l5Qu8Y80q5edRehl46q82oLaWeBndj1SarSABIoc
 [Algorithm Optimization]: https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA
 [Technical Article]: Assignments/TechnicalArticle.md
+[Word Jumble]: Lessons/WordJumble.md
 
 ## Assignments
 
