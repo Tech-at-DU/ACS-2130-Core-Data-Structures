@@ -22,16 +22,16 @@ By this end of this lesson, students should be able to...
 
 <!--## Minute-by-Minute
 
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:10      | Turn in Challenges So Far                |
-| 0:10        | 0:15      | Activity - Stacks and Queues Worksheet - Overview  |
-| 0:25        | 0:30      | Activity - Stacks and Queues Worksheet - Stack Portion       |
-| 0:55        | 0:10      | TT - Amortization                     |
-| 1:05        | 0:10      | BREAK      |
-| 1:15        | 0:25      | Activity - Stacks and Queues Worksheet - Queue Portion      |
-| 1:40        | 0:10      | Wrap Up - Abstract Types vs Concrete Data Structures      |
-| TOTAL       | 1:50      |                           |
+| **Elapsed** | **Time** | **Activity**                                           |
+| ----------- | -------- | ------------------------------------------------------ |
+| 0:00        | 0:10     | Turn in Challenges So Far                              |
+| 0:10        | 0:15     | Activity - Stacks and Queues Worksheet - Overview      |
+| 0:25        | 0:30     | Activity - Stacks and Queues Worksheet - Stack Portion |
+| 0:55        | 0:10     | TT - Amortization                                      |
+| 1:05        | 0:10     | BREAK                                                  |
+| 1:15        | 0:25     | Activity - Stacks and Queues Worksheet - Queue Portion |
+| 1:40        | 0:10     | Wrap Up - Abstract Types vs Concrete Data Structures   |
+| TOTAL       | 1:50     |                                                        |
 -->
 
 ## Resources
@@ -64,7 +64,7 @@ By this end of this lesson, students should be able to...
 
 ## Abstract Types vs Concrete Data Structures (10 min)
 
-![abstract-vs-concrete](./assets/abstract_concrete_comparision.png)
+![abstract-vs-concrete](./Assets/abstract_concrete_comparision.png)
 
 Make sure worksheet is filled out, with bad implementations crossed out
 
@@ -99,7 +99,7 @@ Make sure worksheet is filled out, with bad implementations crossed out
 
 #### Hashtable
 
-![hashtable-implementation](./assets/hashtable_implementation.png)
+![hashtable-implementation](./Assets/hashtable_implementation.png)
 
 - A **Hashtable** is a concrete data structure used to implement a map/dictionary. Python uses this to implement its dictionaries.
 - Small Side Note: you could implement a map with an array or linked list, but it wouldn't be as efficient
@@ -137,15 +137,15 @@ Draw a hash table with the entries below, showing how it's organized in memory.
 - There must be `b=5` buckets and each bucket is a linked list
 - Use ../Slides/diagrams from the previous class to help you
 
-| **Key** | **Hash**  | **Value**   |
-| ----------- | --------- | ------- |
-| red         | 760       | 1       |
-| green       | 394       | 4       |
-| orange      | 893       | 2       |
-| violet      | 491       | 7       |
-| yellow      | 622       | 3       |
-| blue        | 468       | 5       |
-| indigo      | 186       | 6       |
+| **Key** | **Hash** | **Value** |
+| ------- | -------- | --------- |
+| red     | 760      | 1         |
+| green   | 394      | 4         |
+| orange  | 893      | 2         |
+| violet  | 491      | 7         |
+| yellow  | 622      | 3         |
+| blue    | 468      | 5         |
+| indigo  | 186      | 6         |
 
 Finish on your own, then share and discuss with your neighbors. Talk to as many people as you can!
 

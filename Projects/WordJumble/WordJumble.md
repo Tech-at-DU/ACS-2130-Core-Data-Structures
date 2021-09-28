@@ -7,7 +7,7 @@ The goal is for you to synthesize what you learned throughout this course by app
 
 Below is a word jumble from a newspaper:
 
-![jumble](./assets/Jumble 2014-11-22.png)
+![jumble](./Assets/Jumble 2014-11-22.png)
 
 The challenge is to **design a way to solve this word jumble with a computer!** Use what you've learned in the course to automate solving this puzzle!
 

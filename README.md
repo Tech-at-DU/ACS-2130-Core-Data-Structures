@@ -52,8 +52,8 @@ By the end of this course, students will be able to:
 |  14   |              Lab               | Module 5                                          |
 |  15   |            [Trees]             |                                                   |
 |  16   |              Lab               | Module 6                                          |
-|  17   |            [Word Jumble]       |                                                   |
-|  18   |            [Word Jumble]       |                                                   |
+|  17   |         [Word Jumble]          |                                                   |
+|  18   |         [Word Jumble]          |                                                   |
 |  19   | [Algorithm Optimization] & Lab | Word Jumble, Module 7, Technical Article          |
 
 [Algorithm Analysis]: https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo
@@ -66,7 +66,7 @@ By the end of this course, students will be able to:
 [Graphs]: https://docs.google.com/presentation/d/1Tn9l5Qu8Y80q5edRehl46q82oLaWeBndj1SarSABIoc
 [Algorithm Optimization]: https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA
 [Technical Article]: Assignments/TechnicalArticle.md
-[Word Jumble]: Lessons/WordJumble.md
+[Word Jumble]: Projects/WordJumble/WordJumble.md
 
 ## Assignments
 

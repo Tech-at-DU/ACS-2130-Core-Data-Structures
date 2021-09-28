@@ -46,18 +46,18 @@ By the end of this lesson, students should be able to...
 
 <!--## Minute-by-Minute
 
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Progress Tracker                |
-| 0:05        | 0:10      | Factoid of the Day                  |
-| 0:15        | 0:25      | Code Review in Pairs       |
-| 0:40        | 0:30      | Code Review Presentation       |
-| 1:10        | 0:05      | BREAK       |
-| 1:20        | 0:25      | Card Sorting Activity       |
-| 1:45        | 0:10      | TT - Recursion       |
-| 1:55        | 0:04      | Recursive Binary Search Card Activity       |
-| 1:59        | 0:01      | Wrap up       |
-| TOTAL       | 2:00      |                           |-->
+| **Elapsed** | **Time** | **Activity**                          |
+| ----------- | -------- | ------------------------------------- |
+| 0:00        | 0:05     | Progress Tracker                      |
+| 0:05        | 0:10     | Factoid of the Day                    |
+| 0:15        | 0:25     | Code Review in Pairs                  |
+| 0:40        | 0:30     | Code Review Presentation              |
+| 1:10        | 0:05     | BREAK                                 |
+| 1:20        | 0:25     | Card Sorting Activity                 |
+| 1:45        | 0:10     | TT - Recursion                        |
+| 1:55        | 0:04     | Recursive Binary Search Card Activity |
+| 1:59        | 0:01     | Wrap up                               |
+| TOTAL       | 2:00     |                                       | --> |
 
 ## Progress Tracker (5 min)
 
@@ -67,7 +67,7 @@ Fill out attendance, challenges completed, etc.
 
 There's a secret hexagram code known as [I Ching](https://en.wikipedia.org/wiki/I_Ching#Hexagrams). Here's an example of it:
 
-![i-ching-secret](assets/i-ching-secret-code.png)
+![i-ching-secret](./Assets/i-ching-secret-code.png)
 
 **Find out what this secret code means**
 
@@ -243,7 +243,7 @@ Chosen students present their solutions for Iterative Binary Search
 
 ## TT - Algorithm Analysis (10 min)
 
-![linear vs binary search](assets/binary-and-linear-search-animations.gif)
+![linear vs binary search](./Assets/binary-and-linear-search-animations.gif)
 
 Credit to [Mathwarehouse](https://www.mathwarehouse.com/programming/gifs/binary-vs-linear-search.php) for the animation!
 
@@ -280,7 +280,7 @@ Credit to [Mathwarehouse](https://www.mathwarehouse.com/programming/gifs/binary-
 
 See the graph below to compare exponent, linear, and log:
 
-![graph](assets/algorithm_graphs.jpg)
+![graph](./Assets/algorithm_graphs.jpg)
 
 
 

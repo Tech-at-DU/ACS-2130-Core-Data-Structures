@@ -59,7 +59,7 @@ By this end of this lesson, students should be able to...
 
 ## TT - Tree Traversals (20 min)
 
-![tree-traversals](./assets/tree-traversals.png)
+![tree-traversals](./Assets/tree-traversals.png)
 
 See [tree traversal slides]
 

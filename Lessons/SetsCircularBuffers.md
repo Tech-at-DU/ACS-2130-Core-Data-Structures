@@ -49,13 +49,13 @@ By this end of this lesson, students should be able to...
 
 <!--## Minute-by-Minute
 
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:35      | Activity - Drawing a Hashtable                |
-| 0:35        | 0:45      | Code Review                  |
-| 1:20        | 0:10      | Break       |
-| 1:30        | 0:20      | TT - Sets                     |
-| TOTAL       | 1:50      |                           |-->
+| **Elapsed** | **Time** | **Activity**                   |
+| ----------- | -------- | ------------------------------ |
+| 0:00        | 0:35     | Activity - Drawing a Hashtable |
+| 0:35        | 0:45     | Code Review                    |
+| 1:20        | 0:10     | Break                          |
+| 1:30        | 0:20     | TT - Sets                      |
+| TOTAL       | 1:50     |                                | --> |
 
 ## Break (10 min)
 
@@ -69,13 +69,13 @@ A **Set** is an abstract data type. It is an unordered collection (just like a m
 
 But what if we want to know if a student is in two classes? We can use a set operation called **intersection**. Think of an intersection as like using an `and` operator. The below **Venn Diagram** illustrates this intersection:
 
-![venn_intersect](assets/venn_intersect.png)
+![venn_intersect](./Assets/venn_intersect.png)
 
 [Venn diagrams](https://en.wikipedia.org/wiki/Venn_diagram) are going to be super helpful for understanding sets.
 
 ### Set Operations
 
-![venn-operations](assets/venn_operations.png)
+![venn-operations](./Assets/venn_operations.png)
 
 There are other operations we can use to compare multiple sets:
 
@@ -123,7 +123,7 @@ Implement Set using each of these four data structures:
 
 ### Sorted Array
     - add: implementation: binary search to find, insert by shifting down time: binary search `O(log n)` + shift `O(n)` = `O(n)`
-    - _Think about it... _  
+    - _Think about it... _
         - Why is `O(log n) + O(n) = O(n)`? Draw a graph of each note how much `log n` contributes to the overall graph as `n` gets large, vs how much `n` contributes.
     - remove: implementation: binary search and remove via shift time: `O(n)`
     - contains: implementation: binary search time: `O(log n)`
@@ -133,7 +133,7 @@ Implement Set using each of these four data structures:
         - `n` = #entries
         - `b` = #buckets
         - `l` = load factor = n/b = average size of linked list in each bucket
-        - in a resizable hash table (optimized) we can assume `l` is a small constant so `O(1)`  
+        - in a resizable hash table (optimized) we can assume `l` is a small constant so `O(1)`
         - in an non resizable hash table, `l` is not constant, so it contributes `O(l)`
 - Refresh you memory of Linear Probing and Chaining and how these work with load factor.     [ Link to Load Factor Slide ]
     -add: implementation: store element as key using .set method time:  `O(1)`
