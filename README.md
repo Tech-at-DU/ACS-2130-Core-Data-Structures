@@ -34,27 +34,27 @@ By the end of this course, students will be able to:
 **Course Dates:** Monday, August 23 – Thursday, October 7, 2021<br>
 **Class Times:** Monday, Wednesday, Thursday at 5:40pm - 7:30pm.
 
-| Class |             Topics             | Assignments                                       |
-| :---: | :----------------------------: | :------------------------------------------------ |
-|   1   |      [Algorithm Analysis]      |                                                   |
-|   2   |              Lab               | Module 1                                          |
-|   3   |         [Linked Lists]         |                                                   |
-|   4   |         [Number Bases]         |                                                   |
-|   5   |              Lab               | Module 2                                          |
-|   6   |       [Stacks & Queues]        |                                                   |
-|   7   |          [Recursion]           |                                                   |
-|   8   |              Lab               | Module 3                                          |
-|   9   |          [Recursion]           |                                                   |
-|  10   |         [Hash Tables]          |                                                   |
-|  11   |              Lab               | Module 4  (Midterm Modules 1-3 MUST be turned in) |
-|  12   |         [Hash Tables]          |                                                   |
-|  13   |            [Trees]             |                                                   |
-|  14   |              Lab               | Module 5                                          |
-|  15   |            [Trees]             |                                                   |
-|  16   |              Lab               | Module 6                                          |
-|  17   |         [Word Jumble]          |                                                   |
-|  18   |         [Word Jumble]          |                                                   |
-|  19   | [Algorithm Optimization] & Lab | Word Jumble, Module 7, Technical Article          |
+| Class |             Topics             | Assignments                    |
+| :---: | :----------------------------: | :----------------------------- |
+|   1   |      [Algorithm Analysis]      |                                |
+|   2   |              Lab               | Module 1                       |
+|   3   |         [Linked Lists]         |                                |
+|   4   |         [Number Bases]         |                                |
+|   5   |              Lab               | Module 2                       |
+|   6   |       [Stacks & Queues]        |                                |
+|   7   |          [Recursion]           |                                |
+|   8   |              Lab               | Module 3                       |
+|   9   |          [Recursion]           |                                |
+|  10   |         [Hash Tables]          |                                |
+|  11   |              Lab               | Module 4                       |
+|  12   |         [Hash Tables]          |                                |
+|  13   |            [Trees]             |                                |
+|  14   |              Lab               | Module 5                       |
+|  15   |            [Trees]             |                                |
+|  16   |              Lab               | Module 6                       |
+|  17   |         [Word Jumble]          |                                |
+|  18   |         [Word Jumble]          |                                |
+|  19   | [Algorithm Optimization] & Lab | Word Jumble, Technical Article |
 
 [Algorithm Analysis]: https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo
 [Linked Lists]: https://docs.google.com/presentation/d/191W9PsUSSYaQNrLT64Qf6XsOPnreJh2PtIT4I7tG5i8
@@ -97,9 +97,8 @@ To pass this course you must meet the following requirements:
 ## Course Policies and Format
 
 * This course will use a self paced format
-* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided Modules 1-3 are turned in no later than midterm (Friday, September 10th) and modules 3-7 and the technical article are turned in no later than the last day of class (Friday, October 8th)
-* You can resubmit any assignment after receiving feedback to improve your score provided it is turned in no later than the last day of class (Friday, October 8th)
+* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided Modules 1-3 are turned in no later than midterm and modules 3-7 and the technical article are turned in no later than the last day of class.
+* You can resubmit any assignment after receiving feedback to improve your score provided it is turned in no later than the last day of class.
 * Assignments should be completed by the recommended date in the above schedules section in order to receive timely feedback. Students falling behind should connect with the instructor for help staying on pace!
-* The absolute last date to turn in Modules 1-3 is Friday, September 10th and  the last date to turn in modules 3-7 and the technical article is Friday, October 8th
-* Any assignments not complete by the above midterm Friday, September 10th and final day of class Friday, October 8th dates will receive a score of 0
+* Any assignments not complete by final day of class on Friday, October 8th will receive a score of 0.
 
