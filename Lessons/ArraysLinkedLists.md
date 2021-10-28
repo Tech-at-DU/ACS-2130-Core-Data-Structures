@@ -2,7 +2,7 @@
 
 ## Important Links
 - [Slides](https://docs.google.com/presentation/d/18UtE0wphIOrETR0PKUSIkMdNrVV-8IHAu5-LrjEFS68/edit#slide=id.g835fc15bd0_0_63)
-- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list)
+- [Starter Code](https://github.com/tech-at-du/CS-1.3-Core-Data-Structures/tree/master/Code/linked-list)
 - [Rubric](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
 
 ## Topics
@@ -19,13 +19,13 @@ By this end of this lesson, students should be able to...
 
 <!--## Minute-by-Minute
 
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:15      | Discuss Palindrome Notes                |
-| 0:05        | 1:20      | Code Review + Presentations       |
-| 1:35        | 0:10      | Break      |
-| 1:45        | 0:05      | Wrap up      |
-| TOTAL       | 1:50      |                           |
+| **Elapsed** | **Time** | **Activity**                |
+| ----------- | -------- | --------------------------- |
+| 0:00        | 0:15     | Discuss Palindrome Notes    |
+| 0:05        | 1:20     | Code Review + Presentations |
+| 1:35        | 0:10     | Break                       |
+| 1:45        | 0:05     | Wrap up                     |
+| TOTAL       | 1:50     |                             |
 -->
 
 ## Resources
@@ -59,7 +59,7 @@ By this end of this lesson, students should be able to...
 ## Arrays and Linked Lists (5 min)
 
 - Differences between Linked List and Array
-    - can access arbitrary address of array in constant time - so can find middle element with binary search.  
+    - can access arbitrary address of array in constant time - so can find middle element with binary search.
     - In Linked List, you can't access the middle directly (have to traverse from beginning) so binary search would not work.
 - Similarity between Array and Linked List?
     - they both are ordered

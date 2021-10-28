@@ -2,21 +2,21 @@
 
 ## Important Links
 - [Slides](https://docs.google.com/presentation/d/1z51icU9gjESHtyzmBLC2-2thaeLhfQrLdoI9RWUU7WM/edit#slide=id.g8382c44d4e_0_0)
-- [Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)
+- [Code](https://github.com/tech-at-du/CS-1.3-Core-Data-Structures/tree/master/Code/stacks-and-queues)
 - [Rubrics](https://drive.google.com/open?id=1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C)
 
 <!--## Minute-by-Minute [OPTIONAL]
 
 **NOTE: Fill in with the appropriate items**
 
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:45      | In Class Activity I       |
-| 1:05        | 0:10      | BREAK                     |
-| 1:15        | 0:45      | In Class Activity II      |
-| TOTAL       | 2:00      |                           |-->
+| **Elapsed** | **Time** | **Activity**         |
+| ----------- | -------- | -------------------- |
+| 0:00        | 0:05     | Objectives           |
+| 0:05        | 0:15     | Overview             |
+| 0:20        | 0:45     | In Class Activity I  |
+| 1:05        | 0:10     | BREAK                |
+| 1:15        | 0:45     | In Class Activity II |
+| TOTAL       | 2:00     |                      | --> |
 
 ## Learning Objectives (5 min)
 
@@ -70,7 +70,7 @@ By this end of this lesson, students should be able to...
     - Include test cases for each class instance method
 - Annotate `push_front`, `push_back`, `pop_front`, and `pop_back` methods with running time complexity analysis
 
-## TT 
+## TT
 Stacks and Queues are abstract data types.  They can be implemented with an array or a linked list.  They share common methods like
 - isEmpty
 - isFull
@@ -95,7 +95,7 @@ Stacks and Queues are abstract data types.  They can be implemented with an arra
     - Function Stack: Function calls go on the stack, popped when the function returns.
     - Stack trace: The call stack being displayed to your terminal.
 
-    
+
 ## Activity - Stacks and Queues Worksheet - Overview  (15 min)
 
 [Stacks and Queues Worksheet](https://docs.google.com/document/d/1zRnzN-QCKkejHTEBMzTQhdquY47Cu0JNbTNrliScVnw/edit?usp=sharing)
@@ -121,7 +121,7 @@ We'll fill out the worksheet one section at a time. Once you've completed a sect
 
 ### Tips
 
-- Review your stacks and queues code from the previous challenge, see if you can find the good and bad decisions with each of the implementations you've already done. 
+- Review your stacks and queues code from the previous challenge, see if you can find the good and bad decisions with each of the implementations you've already done.
 - Find out what decisions you made when building the functions for stacks and queues, and see if that will help with how you answer the worksheet
 
 ## Activity - Stacks and Queues Worksheet - Stack Portion  (30 min)
@@ -167,7 +167,7 @@ Think about **dynamic arrays** like tables at resturants:
 - Therefore on average, adding items to the array still takes constant time, since the occasional times it takes `O(n)` is outwieghed by all of the times it usually takes `O(1)`
 - However, we can't say it's `O(1)` due to the occasional `O(n)`, so we say it is **Amortized** constant time, denoated as `O(1)*` or `O(1) amortized` or `O(1) avg`.
     - Amortized means most of the time it's `O(1)`, but it is possible that it may take longer. This is rare enough though, that when we average it out, it's closer to constant time
- 
+
 ## Break (10 min)
 
 - An undo buffer (game, Photoshop, etc.) is an example of how you would use a stack!
@@ -184,7 +184,7 @@ Think about **dynamic arrays** like tables at resturants:
 To draw the linked list, we reccomend the following steps:
 
 - Draw the linked list going left to right
-- Draw "head" and "tail" above the appropriate nodes 
+- Draw "head" and "tail" above the appropriate nodes
 - Then write "front" and "back" below the appropriate nodes
 
 Just like before, first draw a queue using a linked list where the front of the queue is the tail of the list

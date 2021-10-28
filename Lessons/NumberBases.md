@@ -2,7 +2,7 @@
 
 ## Important Links
 - [Number Bases Slides](https://docs.google.com/presentation/d/1-1DyXDG2XGJ4rh1YR5UA2aQfSiy7_HPC1wAjwqF8G9o/edit#slide=id.g827cbc5ae4_0_78)
-- [Number Bases Coding Challenge Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/number-bases)
+- [Number Bases Coding Challenge Starter Code](https://github.com/tech-at-du/CS-1.3-Core-Data-Structures/tree/master/Code/number-bases)
 - [Number Bases Coding Challenge Rubric](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view?usp=sharing)
 
 SUBMIT YOUR CODING CHALLENGE ON GRADESCOPE BY THE DUE DATE
@@ -40,18 +40,18 @@ SUBMIT YOUR CODING CHALLENGE ON GRADESCOPE BY THE DUE DATE
 
 <!--## Minute-by-Minute
 
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Factoid of the day                |
-| 0:05        | 0:15      | Learning Outcomes/Course Overview                  |
-| 0:20        | 0:10      | Flippy Do Worksheet       |
-| 0:30        | 0:25      | TT: Base Ten vs Base Two                      |
-| 0:55        | 0:15      | Integers and Bases Worksheet      |
-| 1:10        | 0:25      | TT: Base 16                      |
-| 1:35        | 0:15      | Integers and Bases Worksheet Pt 2      |
-| 1:50        | 0:05      | Negative Numbers      |
-| 1:55        | 0:05      | Wrap up      |
-| TOTAL       | 2:00      |                           |-->
+| **Elapsed** | **Time** | **Activity**                      |
+| ----------- | -------- | --------------------------------- |
+| 0:00        | 0:05     | Factoid of the day                |
+| 0:05        | 0:15     | Learning Outcomes/Course Overview |
+| 0:20        | 0:10     | Flippy Do Worksheet               |
+| 0:30        | 0:25     | TT: Base Ten vs Base Two          |
+| 0:55        | 0:15     | Integers and Bases Worksheet      |
+| 1:10        | 0:25     | TT: Base 16                       |
+| 1:35        | 0:15     | Integers and Bases Worksheet Pt 2 |
+| 1:50        | 0:05     | Negative Numbers                  |
+| 1:55        | 0:05     | Wrap up                           |
+| TOTAL       | 2:00     |                                   | --> |
 
 ## Factoid of the day (5 min)
 

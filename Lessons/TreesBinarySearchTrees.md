@@ -3,7 +3,7 @@
 ## Important Links
 
 - [Slides](Slides/Trees.pdf)
-- [Starter Code](https://github.com/Make-School-Courses/CS-1.3-Core-Data-Structures/tree/master/Code/trees)
+- [Starter Code](https://github.com/tech-at-du/CS-1.3-Core-Data-Structures/tree/master/Code/trees)
 - [Rubrics](https://drive.google.com/file/d/1QMm-cc0jieP-sLXOsXGxNPupz5FYYP0C/view)
 
 
@@ -96,7 +96,7 @@ By this end of this lesson, students should be able to...
 - height(node) number of edges on the longest downward path from node to leaf.
 - depth(node) number of edges between the node and the root.
 - level(node) 1+number of edges between the node and the root.
-- complete tree : every level (except maybe the last) is completely filled and nodes on the last level are as far left as possible.   
+- complete tree : every level (except maybe the last) is completely filled and nodes on the last level are as far left as possible.
 - perfect tree: every level is completely filled.
 - balanced tree: all leaves are at a minimum possible depth.  This matters a lot for runtime - better runtime on balanced trees.
 
