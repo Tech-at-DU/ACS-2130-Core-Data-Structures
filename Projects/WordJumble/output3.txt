@@ -1,0 +1,37 @@
+==================== WORD JUMBLE TEST CASE 1 ====================
+Jumble 1: ACOME => unscrambled into 1 words: CAMEO
+Jumble 2: FEROC => unscrambled into 1 words: FORCE
+Jumble 3: REDDEG => unscrambled into 2 words: DREDGE or GEDDER
+Jumble 4: YURFIP => unscrambled into 1 words: PURIFY
+Final Jumble: ERCDEPI => unscrambled into 1 possible phrases:
+    Option 1: PIERCED
+
+==================== WORD JUMBLE TEST CASE 2 ====================
+Jumble 1: TARFD => unscrambled into 1 words: DRAFT
+Jumble 2: JOBUM => unscrambled into 1 words: JUMBO
+Jumble 3: TENJUK => unscrambled into 1 words: JUNKET
+Jumble 4: LETHEM => unscrambled into 1 words: HELMET
+Final Jumble: TUMUTHT => unscrambled into 3 possible phrases:
+    Option 1: MUTH TUT
+    Option 2: TUM TUTH
+    Option 3: HUT MUTT
+
+==================== WORD JUMBLE TEST CASE 3 ====================
+Jumble 1: LAISA => unscrambled into 1 words: ALIAS
+Jumble 2: LAURR => unscrambled into 2 words: RURAL or URLAR
+Jumble 3: BUREEK => unscrambled into 1 words: REBUKE
+Jumble 4: PROUOT => unscrambled into 1 words: UPROOT
+Final Jumble: LIARRREROT => unscrambled into 6 possible phrases:
+    Option 1: ERROR LITRA
+    Option 2: ERROR TRAIL
+    Option 3: ERROR TRIAL
+    Option 4: RORAL TERRI
+    Option 5: RORAL TIRER
+    Option 6: RORAL TRIER
+
+==================== WORD JUMBLE TEST CASE 4 ====================
+Jumble 1: TEFON => unscrambled into 1 words: OFTEN
+Jumble 2: SOKIK => unscrambled into 1 words: KIOSK
+Jumble 3: NIUMEM => unscrambled into 1 words: IMMUNE
+Jumble 4: SICONU => unscrambled into 1 words: COUSIN
+Final Jumble: TNKISNSI => (no solution)

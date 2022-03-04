@@ -1,0 +1,27 @@
+==================== WORD JUMBLE TEST CASE 1 ====================
+Jumble 1: ACOME => (no solution)
+Jumble 2: FEROC => (no solution)
+Jumble 3: REDDEG => (no solution)
+Jumble 4: YURFIP => (no solution)
+Did not solve any jumbles, so could not solve final jumble.
+
+==================== WORD JUMBLE TEST CASE 2 ====================
+Jumble 1: TARFD => (no solution)
+Jumble 2: JOBUM => (no solution)
+Jumble 3: TENJUK => (no solution)
+Jumble 4: LETHEM => (no solution)
+Did not solve any jumbles, so could not solve final jumble.
+
+==================== WORD JUMBLE TEST CASE 3 ====================
+Jumble 1: LAISA => (no solution)
+Jumble 2: LAURR => (no solution)
+Jumble 3: BUREEK => (no solution)
+Jumble 4: PROUOT => (no solution)
+Did not solve any jumbles, so could not solve final jumble.
+
+==================== WORD JUMBLE TEST CASE 4 ====================
+Jumble 1: TEFON => (no solution)
+Jumble 2: SOKIK => (no solution)
+Jumble 3: NIUMEM => (no solution)
+Jumble 4: SICONU => (no solution)
+Did not solve any jumbles, so could not solve final jumble.
