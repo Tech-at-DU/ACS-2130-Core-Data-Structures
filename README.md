@@ -10,7 +10,7 @@ Students will implement and test data structures including lists, stacks, queues
 
 Students must pass the following course and demonstrate mastery of its competencies:
 
-* [CS 1.2: Introduction to Data Structures](https://make.sc/cs12-repo)
+* [ACS 1120: Introduction to Data Structures](https://tech-at-du.github.io/ACS-1120-Intro-Data-Structures/)
 
 ---
 
@@ -31,30 +31,26 @@ By the end of this course, students will be able to:
 
 ## Schedule
 
-**Course Dates:** Monday, August 23 – Thursday, October 7, 2021<br>
-**Class Times:** Monday, Wednesday, Thursday at 5:40pm - 7:30pm.
+**Course Dates:** 2023 Term 4: March - May 10th<br>
+**Class Times:** Monday, Wednesday 4:00pm - 6:45pm PST
 
 | Class |             Topics             | Assignments                    |
 | :---: | :----------------------------: | :----------------------------- |
 |   1   |      [Algorithm Analysis]      |                                |
-|   2   |              Lab               | Module 1                       |
-|   3   |         [Linked Lists]         |                                |
-|   4   |         [Number Bases]         |                                |
-|   5   |              Lab               | Module 2                       |
-|   6   |       [Stacks & Queues]        |                                |
-|   7   |          [Recursion]           |                                |
-|   8   |              Lab               | Module 3                       |
-|   9   |          [Recursion]           |                                |
-|  10   |         [Hash Tables]          |                                |
-|  11   |              Lab               | Module 4                       |
-|  12   |         [Hash Tables]          |                                |
-|  13   |            [Trees]             |                                |
-|  14   |              Lab               | Module 5                       |
-|  15   |            [Trees]             |                                |
-|  16   |              Lab               | Module 6                       |
-|  17   |         [Word Jumble]          |                                |
-|  18   |         [Word Jumble]          |                                |
-|  19   | [Algorithm Optimization] & Lab | Word Jumble, Technical Article |
+|   2   |         [Linked Lists]         | Module 1 |
+|   3   |         [Number Bases]         |                                |
+|   -   |              Lab               | Module 2                       |
+|   4   |       [Stacks & Queues]        |                                |
+|   5   |          [Recursion]           | Module 3                       |
+|   -   |              Lab               |                        |
+|   6   |          [Recursion]           |  Module 4                       |
+|  7   |         [Hash Tables]          |                                |
+|  -   |              Lab               |                       |
+|  8   |            [Trees]             | Module 5                       |
+|  -   |              Lab               |                      |
+|  9   | Introduce [Word Jumble] / [Technical Article] | Module 6 |
+|  10   | Lab [Word Jumble] / [Technical Article] |                                |
+|  11   | [Algorithm Optimization]<br>[Word Jumble] Solution Review<br>& more! | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
 
 [Algorithm Analysis]: https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo
 [Linked Lists]: https://docs.google.com/presentation/d/191W9PsUSSYaQNrLT64Qf6XsOPnreJh2PtIT4I7tG5i8
@@ -70,19 +66,20 @@ By the end of this course, students will be able to:
 
 ## Assignments
 
-### Coding Modules
+## Assignment Submissions
 
-Each lesson will have an associated module consisting of review, conceptual, and coding activities as well as interview prep related to the topic. At the end of each week you will turn your module work into gradescope for feedback and a score.
+We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
+
+Each lesson will have an associated module consisting of review, conceptual, and coding activities as well as interview prep related to the topic. At the end of each week you will turn your module work into gradescope for feedback and a score. 
+
+Resubmissions are open until 11:59pm on the Sunday that follows the final day of class.
 
 ### Technical Article
 
 Students will also write a technical article about a topic related to course content to deepen their understanding, improve their technical writing skills, and demonstrate mastery of computer science, which will bolster their online presence as knowledgeable and proficient software engineers.
 
-## Assignment Submissions
-
-We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
-
 As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
 
 ## Evaluation
 
@@ -97,8 +94,9 @@ To pass this course you must meet the following requirements:
 ## Course Policies and Format
 
 * This course will use a self paced format
-* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided Modules 1-3 are turned in no later than midterm and modules 3-7 and the technical article are turned in no later than the last day of class.
+* You will be given recommended dates to turn assignments in to stay on track, but you can turn in any assignment later than the recommended date with no penalty provided Modules 1-3 are turned in no later than midterm and modules 3-6 are due by Friday on the final week of class. 
+* The technical article and Word Jumble are turned in no later than the Sunday following the final day of class at 11:59pm PST.
 * You can resubmit any assignment after receiving feedback to improve your score provided it is turned in no later than the last day of class.
 * Assignments should be completed by the recommended date in the above schedules section in order to receive timely feedback. Students falling behind should connect with the instructor for help staying on pace!
-* Any assignments not complete by final day of class on Friday, October 8th will receive a score of 0.
+* **Any modules not submitted by Friday on the final week of class will receive a score of 0**.
 
