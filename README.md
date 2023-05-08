@@ -16,8 +16,8 @@ Students must pass the following course and demonstrate mastery of its competenc
 
 ## Course Specifics
 
-**Course Delivery**: Synchronous | 7 weeks | 18 sessions<br>
-**Course Credits**: Synchronous: 3 units | 37.5 Contact Hours/Term | 92 Non-Contact Hours/Term | 129.5 Total Hours/Term
+**Course Delivery**: Synchronous | 7 weeks | 12 sessions<br>
+**Course Credits**: Synchronous: 3 units 
 
 ## Learning Outcomes
 
@@ -38,31 +38,21 @@ By the end of this course, students will be able to:
 | :---: | :----------------------------: | :----------------------------- |
 |   1   |      [Algorithm Analysis]      |                                |
 |   2   |         [Linked Lists]         | Module 1 |
+|  -   |              Lab               |                      |
 |   3   |         [Number Bases]         |                                |
 |   -   |              Lab               | Module 2                       |
 |   4   |       [Stacks & Queues]        |                                |
+|  -   |              Lab               |                      |
 |   5   |          [Recursion]           | Module 3                       |
 |   -   |              Lab               |                        |
-|   6   |          [Recursion]           |                         |
-|  7   |         [Hash Tables]          |    Module 4                            |
+|  6   |         [Hash Tables]          |    Module 4                            |
 |  -   |              Lab               |                       |
-|  8   |            [Trees]             | Module 5                       |
+|  7   |            [Trees]             | Module 5                       |
 |  -   |              Lab               |                      |
-|  9   | Introduce [Word Jumble] / [Technical Article] | Module 6 |
-|  10   | Lab [Word Jumble] / [Technical Article] |                                |
-|  11   | [Algorithm Optimization]<br>[Word Jumble] Solution Review<br>& more! | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
+|  8   | Introduce [Word Jumble] / [Technical Article] | Module 6 |
+|  9   | Lab [Word Jumble] / [Technical Article] |                                |
+|  10   | [Algorithm Optimization]<br>[Word Jumble] Solution Review<br>& more! | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
 
-[Algorithm Analysis]: https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo
-[Linked Lists]: https://docs.google.com/presentation/d/191W9PsUSSYaQNrLT64Qf6XsOPnreJh2PtIT4I7tG5i8
-[Number Bases]: https://docs.google.com/presentation/d/1QWVzQpxOuFEJQprtch3n5fFeTK1HSCyRmWoNJTYeSNs
-[Stacks & Queues]: https://docs.google.com/presentation/d/1bUWZlbnro-y6uCsO586ESgsP0-BX9AcvzjDVfOD0B-U
-[Hash Tables]: https://docs.google.com/presentation/d/1JCOxLSAAU0KTqYJFnStt97QILA02Q2oiJI6uP7Jrm10
-[Recursion]: https://docs.google.com/presentation/d/1ScT3QmrfnPx07Je1kkamrQcjxBL8sb2H5ZC4_jOP14E
-[Trees]: https://docs.google.com/presentation/d/1rqRcGuyOKOOCPsg1X4LSmivXC-862vnSjpl6Gz4MNxw
-[Graphs]: https://docs.google.com/presentation/d/1Tn9l5Qu8Y80q5edRehl46q82oLaWeBndj1SarSABIoc
-[Algorithm Optimization]: https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA
-[Technical Article]: Assignments/TechnicalArticle.md
-[Word Jumble]: Projects/WordJumble/WordJumble.md
 
 ## Assignments
 
@@ -99,4 +89,18 @@ To pass this course you must meet the following requirements:
 * You can resubmit any assignment after receiving feedback to improve your score provided it is turned in no later than the last day of class.
 * Assignments should be completed by the recommended date in the above schedules section in order to receive timely feedback. Students falling behind should connect with the instructor for help staying on pace!
 * **Any modules not submitted by Friday on the final week of class will receive a score of 0**.
+
+
+[Algorithm Analysis]: https://docs.google.com/presentation/d/1LLLVPl_vpZXz6K1N3vAcrGEBwegaD227A1pYw-fVCBo
+[Linked Lists]: https://docs.google.com/presentation/d/191W9PsUSSYaQNrLT64Qf6XsOPnreJh2PtIT4I7tG5i8
+[Number Bases]: https://docs.google.com/presentation/d/1QWVzQpxOuFEJQprtch3n5fFeTK1HSCyRmWoNJTYeSNs
+[Stacks & Queues]: https://docs.google.com/presentation/d/1bUWZlbnro-y6uCsO586ESgsP0-BX9AcvzjDVfOD0B-U
+[Hash Tables]: https://docs.google.com/presentation/d/1JCOxLSAAU0KTqYJFnStt97QILA02Q2oiJI6uP7Jrm10
+[Recursion]: https://docs.google.com/presentation/d/1ScT3QmrfnPx07Je1kkamrQcjxBL8sb2H5ZC4_jOP14E
+[Trees]: https://docs.google.com/presentation/d/1rqRcGuyOKOOCPsg1X4LSmivXC-862vnSjpl6Gz4MNxw
+[Graphs]: https://docs.google.com/presentation/d/1Tn9l5Qu8Y80q5edRehl46q82oLaWeBndj1SarSABIoc
+[Algorithm Optimization]: https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA
+[Technical Article]: Assignments/TechnicalArticle.md
+[Word Jumble]: Projects/WordJumble/WordJumble.md
+
 
