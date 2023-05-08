@@ -43,8 +43,8 @@ By the end of this course, students will be able to:
 |   4   |       [Stacks & Queues]        |                                |
 |   5   |          [Recursion]           | Module 3                       |
 |   -   |              Lab               |                        |
-|   6   |          [Recursion]           |  Module 4                       |
-|  7   |         [Hash Tables]          |                                |
+|   6   |          [Recursion]           |                         |
+|  7   |         [Hash Tables]          |    Module 4                            |
 |  -   |              Lab               |                       |
 |  8   |            [Trees]             | Module 5                       |
 |  -   |              Lab               |                      |
