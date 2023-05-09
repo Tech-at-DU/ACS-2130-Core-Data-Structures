@@ -1,5 +1,5 @@
 
-# Technical Article Guidelines & Requirements
+# Technical Article Guidelines & Requirements ([Rubric](Rubric_TechnicalArticle.md))
 The purpose of the technical article assignment is to learn more about a topic related to computer science and produce a high quality article that demonstrates your learning and ability to effectively communicate technical ideas in writing.
 ###Guidelines for Getting Started
 
