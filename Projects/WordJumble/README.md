@@ -1,4 +1,4 @@
-# Word Jumble Project  ([Rubric](../Assignments/Rubric_WordJumble.pdf))
+# Word Jumble Project  ([Rubric](/Assignments/Rubric_WordJumble.pdf))
 
 This project is a design challenge that involves both individual and partner work. The goal is for you to synthesize what you learned throughout this course by applying your knowledge of data structures and algorithms to a fun word puzzle found in many newspapers.
 
