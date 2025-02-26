@@ -101,6 +101,6 @@ To pass this course you must meet the following requirements:
 [Graphs]: https://docs.google.com/presentation/d/1Tn9l5Qu8Y80q5edRehl46q82oLaWeBndj1SarSABIoc
 [Algorithm Optimization]: https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA
 [Technical Article]: Assignments/TechnicalArticle.md
-[Word Jumble]: Projects/WordJumble/WordJumble.md
+[Word Jumble]: Projects/WordJumble/README.md
 
 
