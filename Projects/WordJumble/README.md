@@ -14,6 +14,67 @@ For the first 4 words, each jumble of letters is actually an anagram of a word i
 
 Once you solve all 4 words, look at where the circles are. All of the letters within the circles should be added to a letter bank, which you'll unscramble and use to solve the final jumble, which is a hyphenated phrase that's an answer to the the punny riddle in the picture.
 
+## Example Input
+
+```python3
+    # Create a data structure to help unscramble words (once in global scope)
+    # By storing the words list in a specialized dictionary rather than a list,
+    # we can look up candidate words much faster than linear searching a list.
+    words_dict = create_words_dict(words_list)
+
+`   Try these examples:
+    print(words_dict['DGO'])  # --> ['DOG', 'GOD']
+    print(words_dict['CDEO'])  # --> ['CODE', 'COED']
+    print(words_dict['ILST'])  # --> ['LIST', 'SILT', 'SLIT']
+    print(words_dict['EILNST'])  # --> ['ENLIST', 'LISTEN', 'SILENT', 'TINSEL']
+```
+
+## Expected Output
+
+```bash
+['DOG', 'GOD']
+['CODE', 'COED']
+['LIST', 'SILT', 'SLIT']
+['ENLIST', 'LISTEN', 'SILENT', 'TINSEL']
+==================== WORD JUMBLE TEST CASE 1 ====================
+Jumble 1: ACOME => unscrambled into 1 words: CAMEO
+Jumble 2: FEROC => unscrambled into 1 words: FORCE
+Jumble 3: REDDEG => unscrambled into 2 words: DREDGE or GEDDER
+Jumble 4: YURFIP => unscrambled into 1 words: PURIFY
+Final Jumble: ERCDEPI => unscrambled into 1 possible phrases:
+    Option 1: PIERCED
+
+==================== WORD JUMBLE TEST CASE 2 ====================
+Jumble 1: TARFD => unscrambled into 1 words: DRAFT
+Jumble 2: JOBUM => unscrambled into 1 words: JUMBO
+Jumble 3: TENJUK => unscrambled into 1 words: JUNKET
+Jumble 4: LETHEM => unscrambled into 1 words: HELMET
+Final Jumble: TUMUTHT => unscrambled into 3 possible phrases:
+    Option 1: MUTH TUT
+    Option 2: TUM TUTH
+    Option 3: HUT MUTT
+
+==================== WORD JUMBLE TEST CASE 3 ====================
+Jumble 1: LAISA => unscrambled into 1 words: ALIAS
+Jumble 2: LAURR => unscrambled into 2 words: RURAL or URLAR
+Jumble 3: BUREEK => unscrambled into 1 words: REBUKE
+Jumble 4: PROUOT => unscrambled into 1 words: UPROOT
+Final Jumble: LIARRREROT => unscrambled into 6 possible phrases:
+    Option 1: ERROR LITRA
+    Option 2: ERROR TRAIL
+    Option 3: ERROR TRIAL
+    Option 4: RORAL TERRI
+    Option 5: RORAL TIRER
+    Option 6: RORAL TRIER
+
+==================== WORD JUMBLE TEST CASE 4 ====================
+Jumble 1: TEFON => unscrambled into 1 words: OFTEN
+Jumble 2: SOKIK => unscrambled into 1 words: KIOSK
+Jumble 3: NIUMEM => unscrambled into 1 words: IMMUNE
+Jumble 4: SICONU => unscrambled into 1 words: COUSIN
+Final Jumble: TNKISNSI => (no solution)
+```
+
 ## Tips and Hints
 
 - Use the English dictionary words file located at `/usr/share/dict/words` on all Mac and Linux installations.
