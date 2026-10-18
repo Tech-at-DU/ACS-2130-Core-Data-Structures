@@ -31,8 +31,8 @@ By the end of this course, students will be able to:
 
 ## Schedule
 
-**Course Dates:** 2023 Term 4: March - May 10th<br>
-**Class Times:** Monday, Wednesday 4:00pm - 6:45pm PST
+**Course Dates:** 2026 Fall Term 2: October 19th - December 9th<br>
+**Class Times:** Monday, Wednesday 1:00pm - 3:00pm ET (10:00am - 12:00pm PT)
 
 | Class |             Topics             | Assignments                    |
 | :---: | :----------------------------: | :----------------------------- |
