@@ -58,7 +58,7 @@ Paste it into a new file, `llm_cache.py`. Then, on paper or in a comment, answer
 
 ## [**35m**] 📚 TT: Why a Cache Is a Hash Map
 
-All right, talk track (TT) for today. You've already built a hash table from scratch. Today we put one of them to work.
+All right, talk track (TT) for today. You've already built a hash table from scratch. Today you'll see why that matters at work.
 
 ### The Bill Nobody Expected
 
@@ -71,11 +71,11 @@ Picture a log from a support bot on a quiet Tuesday:
 10:03:52  prompt="How do I reset my password?"   1.1s  billed
 ```
 
-Four calls, same question, and we paid for every single one. The fix is super old school: save the answer.
+Here's the thing, y'all: that's four calls for one question, and we paid for every single one. The fix is older than any model. Save the answer.
 
 ### A Cache Is a Dict With a Policy
 
-A cache is a hash map. The key is the prompt (or something built from it), and the value is the response. A Python `dict` is already a hash table, so a lookup costs O(1) on average. Compare that to a model call that costs about a second and real money.
+A cache is a hash map. The key is the prompt (or something built from it), and the value is the response. It's kind of like a sticky note of answers you already looked up. Check the note before you go ask again. A Python `dict` is already a hash table, so a lookup costs O(1) on average. Compare that to a model call that costs about a second and real money.
 
 ```python
 cache = {}
@@ -130,7 +130,7 @@ Normalization has a cost, though. Lowercasing is fine for "reset my password." I
 
 ### Hash Long Prompts
 
-Real prompts carry pasted documents, chat history, and system instructions. Using a 40,000-character string as a dict key works, but it bloats memory and makes keys painful to log or store in an external cache. So we hash it down instead. Think of it like labeling leftovers in the fridge: you don't write the whole recipe on the sticky note, you write "Tuesday chili." SHA-256 from `hashlib` always gives a 64-character hex string:
+Real prompts carry pasted documents, chat history, and system instructions. Using a 40,000-character string as a dict key works, but it bloats memory and makes keys painful to log or store in an external cache. So we hash it down instead. SHA-256 from `hashlib` always gives a 64-character hex string:
 
 ```python
 import hashlib
@@ -205,14 +205,14 @@ No. Collisions are possible in theory, but with 2^256 possible values you won't 
 
 ### Bound It: TTL and LRU
 
-A dict that only grows will eventually eat all your memory. So we put two limits on it:
+Think about it: a dict that only grows will eventually eat all your memory. So we put two limits on it:
 
 - A TTL (time to live) makes each entry expire after N seconds, so stale answers age out.
 - A size cap with LRU (least recently used) eviction drops the entry nobody has asked for in the longest time once the cache is full.
 
 `collections.OrderedDict` gives you LRU almost for free. `move_to_end(key)` marks a key as most recent. `popitem(last=False)` removes the oldest. For TTL, store an expiry time next to each value and read the clock with `time.monotonic()`, which can't go backwards when the system clock changes.
 
-We're not doing Redis today. Same data structure; the network is the hard part, and that's its own lesson.
+Distributed caches like Redis are out of scope for today's class. Same data structure; the network is the hard part.
 
 ### When Caching AI Output Is Wrong
 
