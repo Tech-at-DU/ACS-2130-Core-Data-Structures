@@ -293,7 +293,7 @@ B. With key A, the second user gets the first user's email summary, which is a p
     cached:   2.0s, model calls: 2
     ```
 
-1. Swap the key for the hashed version from the talk track. Paste `import hashlib`, `MODEL`, and `cache_key` near the top, then change `key = normalize(prompt)` to `key = cache_key(prompt)`. Re-run. The numbers should not change.
+1. Swap the key for the hashed version from teacher talk. Paste `import hashlib`, `MODEL`, and `cache_key` near the top, then change `key = normalize(prompt)` to `key = cache_key(prompt)`. Re-run. The numbers should not change.
 1. Add one prompt to the list that *should* miss, and one that should hit. Re-run and confirm the call count moves the way you predicted.
 
 > **‼️ WATCH OUT:** Running the file twice does not reuse the cache. The `cache` dict lives in memory and dies with the process. That is fine for today; a cache that survives restarts needs a store outside the process.
