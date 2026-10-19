@@ -31,27 +31,27 @@ By the end of this course, students will be able to:
 
 ## Schedule
 
-**Course Dates:** 2023 Term 4: March - May 10th<br>
-**Class Times:** Monday, Wednesday 4:00pm - 6:45pm PST
+**Course Dates:** 2026 Fall Term 2: October 19th - December 9th<br>
+**Class Times:** Monday, Wednesday 1:00pm - 3:00pm ET (10:00am - 12:00pm PT)
 
-| Class |             Topics             | Assignments                    |
-| :---: | :----------------------------: | :----------------------------- |
-|   1   |      [Algorithm Analysis]      |                                |
-|   2   |         [Linked Lists]         | Module 1 |
-|  -   |              Lab               |                      |
-|   3   |         [Number Bases]         |                                |
-|   -   |              Lab               | Module 2                       |
-|   4   |       [Stacks & Queues]        |                                |
-|  -   |              Lab               |                      |
-|   5   |          [Recursion]           | Module 3                       |
-|   -   |              Lab               |                        |
-|  6   |         [Hash Tables]          |    Module 4                            |
-|  -   |              Lab               |                       |
-|  7   |            [Trees]             | Module 5                       |
-|  -   |              Lab               |                      |
-|  8   | Introduce [Word Jumble] / [Technical Article] | Module 6 |
-|  9   | Lab [Word Jumble] / [Technical Article] |                                |
-|  10   | [Algorithm Optimization]<br>[Word Jumble] Solution Review<br>& more! | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
+| Class |   Date   |              Topic              | Assignments                    |
+| :---: |:--------:| :----------------------------: | :----------------------------- |
+|   1   |  Oct, 19 |      [Algorithm Analysis]      |                                |
+|   2   |  Oct, 21 |         [Linked Lists]         | Module 1 |
+|  -   |  Oct, 26 |              Lab               |                      |
+|   3   |  Oct, 28 |         [Number Bases]         |                                |
+|   -   |  Nov, 2  |              Lab               | Module 2                       |
+|   4   |  Nov, 4  |       [Stacks & Queues]        |                                |
+|  -   |  Nov, 9  |              Lab               |                      |
+|   5   |  Nov, 11 |          [Recursion]           | Module 3                       |
+|   -   |  Nov, 16 |              Lab               |                        |
+|  6   |  Nov, 18 |         [Hash Tables]          |    Module 4                            |
+|  7   |  Nov, 23 |            [Trees]             | Module 5                       |
+|   -   |  Nov, 25 | **Campus Holiday – No Class** |                       |
+|  -   |  Nov, 30 |              Lab               |                      |
+|  8   |  Dec, 2  | Introduce [Word Jumble] / [Technical Article] | Module 6 |
+|  9   |  Dec, 7  | Lab [Word Jumble] / [Technical Article] |                                |
+|  10   |  Dec, 9  | **Trees Project Presentations** | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
 
 
 ## Assignments
