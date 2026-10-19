@@ -207,8 +207,8 @@ No. Collisions are possible in theory, but with 2^256 possible values you won't 
 
 Think about it: a dict that only grows will eventually eat all your memory. So we put two limits on it:
 
-- A TTL (time to live) makes each entry expire after N seconds, so stale answers age out.
-- A size cap with LRU (least recently used) eviction drops the entry nobody has asked for in the longest time once the cache is full.
+- A TTL makes each entry expire after N seconds, so stale answers age out.
+- A size cap with LRU eviction drops the entry nobody has asked for in the longest time once the cache is full.
 
 `collections.OrderedDict` gives you LRU almost for free. `move_to_end(key)` marks a key as most recent. `popitem(last=False)` removes the oldest. For TTL, store an expiry time next to each value and read the clock with `time.monotonic()`, which can't go backwards when the system clock changes.
 
