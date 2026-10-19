@@ -48,7 +48,7 @@ By the end of this course, students will be able to:
 |  6   |  Nov, 18 |         [Hash Tables]          |    Module 4                            |
 |  7   |  Nov, 23 |            [Trees]             | Module 5                       |
 |   -   |  Nov, 25 | **Campus Holiday – No Class** |                       |
-|  -   |  Nov, 30 |              Lab               |                      |
+|  -   |  Nov, 30 |  [Hash Tables for AI Caching]  |                      |
 |  8   |  Dec, 2  | Introduce [Word Jumble] / [Technical Article] | Module 6 |
 |  9   |  Dec, 7  | Lab [Word Jumble] / [Technical Article] |                                |
 |  10   |  Dec, 9  | **Trees Project Presentations** | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
@@ -102,5 +102,6 @@ To pass this course you must meet the following requirements:
 [Algorithm Optimization]: https://docs.google.com/presentation/d/1_FEpLqrNV8o0aXN5myAiltkXdlVlp4BE-QTIHPKJHlA
 [Technical Article]: Assignments/TechnicalArticle.md
 [Word Jumble]: Projects/WordJumble/README.md
+[Hash Tables for AI Caching]: Lessons/HashTablesForAICaching.md
 
 
