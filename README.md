@@ -46,13 +46,12 @@ By the end of this course, students will be able to:
 |   5   |  Nov, 11 |          [Recursion]           | Module 3                       |
 |   -   |  Nov, 16 |              Lab               |                        |
 |  6   |  Nov, 18 |         [Hash Tables]          |    Module 4                            |
-|  -   |  Nov, 23 |              Lab               |                       |
+|  7   |  Nov, 23 |            [Trees]             | Module 5                       |
 |   -   |  Nov, 25 | **Campus Holiday – No Class** |                       |
-|  7   |  Nov, 30 |            [Trees]             | Module 5                       |
-|  -   |  Dec, 2  |              Lab               |                      |
-|  8   |  Dec, 7  | Introduce [Word Jumble] / [Technical Article] | Module 6 |
-|  9   |  Dec, 9  | Lab [Word Jumble] / [Technical Article] |                                |
-|  10   |          | [Algorithm Optimization]<br>[Word Jumble] Solution Review<br>& more! | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
+|  -   |  Nov, 30 |              Lab               |                      |
+|  8   |  Dec, 2  | Introduce [Word Jumble] / [Technical Article] | Module 6 |
+|  9   |  Dec, 7  | Lab [Word Jumble] / [Technical Article] |                                |
+|  10   |  Dec, 9  | [Algorithm Optimization]<br>[Word Jumble] Solution Review<br>& more! | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
 
 
 ## Assignments
