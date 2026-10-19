@@ -51,7 +51,7 @@ By the end of this course, students will be able to:
 |  -   |  Nov, 30 |              Lab               |                      |
 |  8   |  Dec, 2  | Introduce [Word Jumble] / [Technical Article] | Module 6 |
 |  9   |  Dec, 7  | Lab [Word Jumble] / [Technical Article] |                                |
-|  10   |  Dec, 9  | [Algorithm Optimization]<br>[Word Jumble] Solution Review<br>& more! | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
+|  10   |  Dec, 9  | **Trees Project Presentations** | [Word Jumble], [Technical Article] due Sunday after class ends @ 11:59pm PST |
 
 
 ## Assignments
