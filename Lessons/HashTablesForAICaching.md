@@ -24,7 +24,7 @@
 1. Design a cache key that normalizes prompts and hashes long ones with `hashlib`
 1. Measure the time and call count a cache saves on repeated prompts
 1. Implement a time-to-live (TTL) and a least-recently-used (LRU) size cap with `OrderedDict`
-1. Decide when caching an artificial intelligence (AI) answer is the wrong move
+1. Decide when caching an AI answer is the wrong move
 
 <!-- > -->
 
@@ -34,7 +34,7 @@
 
 ## [**10m**] ☀️ Warm Up
 
-Here is the stand-in for a large language model (LLM) call that we use all session. It sleeps about one second and counts every call, the same two things that hurt with a hosted model: latency and a metered bill. No application programming interface (API) keys needed.
+Here is the stand-in for an LLM call that we use all session. It sleeps about one second and counts every call, the same two things that hurt with a hosted model: latency and a metered bill. No API keys needed.
 
 ```python
 import time
@@ -52,13 +52,13 @@ def fake_llm(prompt):
 
 Paste it into a new file, `llm_cache.py`. Then, on paper or in a comment, answer one question: a help-desk bot gets "How do I reset my password?" 300 times a day. How many of those 300 calls does the model actually need to answer?
 
-> **📈 PROTIP:** The same wrapper pattern works around a real software development kit (SDK) call. Swap the body of `fake_llm` for your provider's client call and nothing else in today's code changes.
+> **📈 PROTIP:** The same wrapper pattern works around a real SDK call. Swap the body of `fake_llm` for your provider's client call and nothing else in today's code changes.
 
 <!-- > -->
 
 ## [**35m**] 📚 TT: Why a Cache Is a Hash Map
 
-This is the talk track (TT) for today. You've already built a hash table from scratch. Today one of them earns its keep.
+All right, talk track (TT) for today. You've already built a hash table from scratch. Today we put one of them to work.
 
 ### The Bill Nobody Expected
 
@@ -71,11 +71,11 @@ Picture a log from a support bot on a quiet Tuesday:
 10:03:52  prompt="How do I reset my password?"   1.1s  billed
 ```
 
-Four calls. One question. Every line paid for the same answer and made someone wait a second for it. The fix is older than any model: remember the answer.
+Four calls, same question, and we paid for every single one. The fix is super old school: save the answer.
 
 ### A Cache Is a Dict With a Policy
 
-A cache is a hash map. The key is the prompt (or something built from it). The value is the response. A Python `dict` is already a hash table, so a lookup costs O(1) on average. Compare that to a model call that costs about a second and real money.
+A cache is a hash map. The key is the prompt (or something built from it), and the value is the response. A Python `dict` is already a hash table, so a lookup costs O(1) on average. Compare that to a model call that costs about a second and real money.
 
 ```python
 cache = {}
@@ -88,7 +88,7 @@ def cached_llm(prompt):
     return answer
 ```
 
-Python ships a version of this already. `functools.lru_cache` memoizes a function by its arguments and reports hits and misses:
+Python already ships a version of this. Real quick: `functools.lru_cache` memoizes a function by its arguments and reports hits and misses:
 
 ```python
 from functools import lru_cache
@@ -111,26 +111,26 @@ print(cached_fake_llm.cache_info())
 <details>
 <summary>Answer</summary>
 
-`lru_cache` keys on the exact argument. `"What"` and `"what"` are different strings, so they hash to different slots. The cache has no idea they mean the same thing. That is a key-design problem, and it is ours to solve.
+`lru_cache` keys on the exact argument. `"What"` and `"what"` are different strings, so they hash to different slots. The cache has no idea they mean the same thing. That's a key-design problem, and it's ours to solve.
 
 </details>
 
 ### Normalize the Key
 
-Two prompts that should share an answer need to produce the same key. The cheap fix: lowercase and collapse whitespace.
+Two prompts that should share an answer need to produce the same key. The cheap fix is to lowercase and collapse whitespace.
 
 ```python
 def normalize(prompt):
     return " ".join(prompt.lower().split())
 ```
 
-Now all four log lines above map to `"how do i reset my password?"`. One miss, three hits.
+Now all four log lines above map to `"how do i reset my password?"`. That's one miss and three hits.
 
-Normalization has a cost, though. Lowercasing is fine for "reset my password." It is wrong for "explain the `HashMap` class," where case carries meaning. Normalize only what you are sure doesn't change the answer.
+Normalization has a cost, though. Lowercasing is fine for "reset my password." It's wrong for "explain the `HashMap` class," where case carries meaning. Only normalize what you're sure doesn't change the answer.
 
 ### Hash Long Prompts
 
-Real prompts carry pasted documents, chat history, and system instructions. Using a 40,000-character string as a dict key works, but it bloats memory and makes keys painful to log or store in an external cache. Hash it down instead. SHA-256 (Secure Hash Algorithm, 256-bit) from `hashlib` always gives a 64-character hex string:
+Real prompts carry pasted documents, chat history, and system instructions. Using a 40,000-character string as a dict key works, but it bloats memory and makes keys painful to log or store in an external cache. So we hash it down instead. Think of it like labeling leftovers in the fridge: you don't write the whole recipe on the sticky note, you write "Tuesday chili." SHA-256 from `hashlib` always gives a 64-character hex string:
 
 ```python
 import hashlib
@@ -146,7 +146,7 @@ def cache_key(prompt, model=MODEL):
 print(len(cache_key("x" * 50_000)))  # 64
 ```
 
-Notice the model name is part of the key. Upgrade the model and the old answers stop matching, which is what you want.
+Notice the model name is part of the key. Upgrade the model and the old answers stop matching, which is exactly what you want.
 
 > **💬 QUICK CHECK:** What is missing from this key? `key = normalize(prompt)` for a bot that serves two models and lets callers set `temperature`.
 
@@ -159,9 +159,9 @@ Everything else that changes the answer: the model name and the sampling setting
 
 ### Collisions and Why Key Design Matters
 
-Python's `dict` handles hash collisions for you. When two keys land in the same slot, it compares the keys with `==`, so a collision inside the table never hands back the wrong value.
+Python's `dict` handles hash collisions for you. When two keys land in the same slot, it compares the keys with `==`, so a collision inside the table never hands back the wrong value. Nice.
 
-The danger is collisions *you* create by throwing away information. Two ways teams get there:
+The danger is collisions *you* create by throwing away information. Here's how teams usually get there:
 
 1. Over-normalizing. Strip punctuation and `"Is 0.1 + 0.2 == 0.3?"` starts sharing a key with `"Is 01 02 03?"`.
 1. Truncating the hash. Someone keeps the first few hex characters "to save space."
@@ -192,31 +192,31 @@ print(first_collision(2))  # ('question 9', 'question 15', '88')
 print(first_collision(4))  # ('question 38', 'question 130', 'f607')
 ```
 
-With two hex characters there are only 256 possible keys, and two prompts share one after 16 tries. Four characters gives 65,536 keys and still collides at 131 prompts. That is the birthday problem. When those keys collide, the dict's `==` check can't save you, because the two keys really are equal. Prompt B gets prompt A's answer. Keep the full digest.
+With two hex characters there are only 256 possible keys, and two prompts share one after 16 tries. Four characters gives 65,536 keys and still collides at 131 prompts. That's the birthday problem. When those keys collide, the dict's `==` check can't save you, because the two keys really are equal. Prompt B gets prompt A's answer. Keep the full digest.
 
 > **💬 YOUR TURN:** Predict: with the full 64-character SHA-256 key, should you write code to handle two different prompts producing the same key?
 
 <details>
 <summary>Answer</summary>
 
-No. Collisions are possible in theory, but with 2^256 possible values you won't hit one in practice. Spend that effort on key design: what goes into `normalize` and what context belongs in the key.
+No. Collisions are possible in theory, but with 2^256 possible values you won't hit one in practice. Put that effort into key design instead: what goes into `normalize`, and what context belongs in the key.
 
 </details>
 
 ### Bound It: TTL and LRU
 
-A dict that only grows is a memory leak with good intentions. Two limits fix it:
+A dict that only grows will eventually eat all your memory. So we put two limits on it:
 
 - A TTL (time to live) makes each entry expire after N seconds, so stale answers age out.
 - A size cap with LRU (least recently used) eviction drops the entry nobody has asked for in the longest time once the cache is full.
 
 `collections.OrderedDict` gives you LRU almost for free. `move_to_end(key)` marks a key as most recent. `popitem(last=False)` removes the oldest. For TTL, store an expiry time next to each value and read the clock with `time.monotonic()`, which can't go backwards when the system clock changes.
 
-I'll be honest: we skip distributed caches (Redis and friends) today. The data structure is the same; the network is the hard part.
+We're not doing Redis today. Same data structure; the network is the hard part, and that's its own lesson.
 
 ### When Caching AI Output Is Wrong
 
-A cache returns the same answer every time. Sometimes that is the bug.
+A cache returns the same answer every time. Sometimes that's the bug.
 
 | Prompt | Cache it? | Why |
 | --- | --- | --- |
@@ -302,7 +302,7 @@ B. With key A, the second user gets the first user's email summary, which is a p
 
 ## [**30m**] 💻 Activity 2: Add TTL, LRU Eviction, and a Hit Rate
 
-> **✅ READY WHEN:** the driver prints `hits=2 misses=4 rate=0.33 calls=4`, then after the TTL wait prints `after TTL: misses=5 calls=5 size=2`.
+> **✅ DONE WHEN:** the driver prints `hits=2 misses=4 rate=0.33 calls=4`, then after the TTL wait prints `after TTL: misses=5 calls=5 size=2`.
 
 1. Paste this starter class into `llm_cache.py`, below `cache_key`. The constructor and `hit_rate` are done; `get` and `put` are yours.
 
