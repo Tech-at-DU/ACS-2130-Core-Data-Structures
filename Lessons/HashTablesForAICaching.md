@@ -58,7 +58,7 @@ Paste it into a new file, `llm_cache.py`. Then, on paper or in a comment, answer
 
 ## [**35m**] 📚 TT: Why a Cache Is a Hash Map
 
-All right, talk track (TT) for today. You've already built a hash table from scratch. Today you'll see why that matters at work.
+All right, TT for today. You've already built a hash table from scratch. Today you'll see why that matters at work.
 
 ### The Bill Nobody Expected
 
@@ -417,7 +417,7 @@ B. With key A, the second user gets the first user's email summary, which is a p
 ### Facilitator Notes
 
 - Live-code `cached_llm` and the `lru_cache` demo only. Then get out of the way.
-- Expect the room to hit two bugs in Activity 2: forgetting `move_to_end` in `get` (eviction order goes FIFO, first in first out) and evicting before inserting. Have them print `list(lru.store)` to see it.
+- Expect the room to hit two bugs in Activity 2: forgetting `move_to_end` in `get` (eviction order goes FIFO) and evicting before inserting. Have them print `list(lru.store)` to see it.
 - `answer is None` as the miss signal breaks if a model ever returns `None`. Fine for today; mention it if someone asks.
 - Reference solution for Activity 2, tested on Python 3.13:
 
