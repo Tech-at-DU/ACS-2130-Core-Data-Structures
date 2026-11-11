@@ -119,10 +119,11 @@ def find_mentioning(thread, keyword):
 
 def flatten(thread):
     """Return every Comment in one list, parent before the dolls inside it."""
-    # TODO: open each doll, then append what the recursive call returns for its replies so the nested dolls come back out into one list
+    # TODO: open each doll, add it to the list, then extend that same list with what the recursive call returns for its replies so the nested dolls come back out into one flat list
     raise NotImplementedError(
-        "TODO: open each doll, then append what the recursive call returns "
-        "for its replies so the nested dolls come back out into one list"
+        "TODO: open each doll, add it to the list, then extend that same "
+        "list with what the recursive call returns for its replies so the "
+        "nested dolls come back out into one flat list"
     )
 
 
@@ -141,15 +142,17 @@ def collapse_deleted(thread):
 
 
 def deepest_chain(thread):
-    """Return the comments from an outermost doll down to an innermost one.
+    """Return the longest chain of comments from an outermost doll down to a solid one.
 
-    Follow replies until a solid doll. When two replies both still have a
-    doll inside, keep the first reply you meet. The list starts at the outer
-    comment and ends on the solid doll.
+    Check every top-level comment and every reply. Ask each reply for its
+    own chain, then keep the longest chain that comes back. When two chains
+    are the same length, keep the first one you met. The list starts at the
+    outer comment and ends on a solid doll. An empty thread returns [].
     """
-    # TODO: open replies until a solid doll and return the chain of comments you opened, keeping the first reply that still has a doll inside when you have a choice
+    # TODO: for each doll, get the chain from each of its replies, keep the longest one (the first one wins a tie), and put this doll in front of it; check every top-level doll the same way and return the longest chain
     raise NotImplementedError(
-        "TODO: open replies until a solid doll and return the chain of "
-        "comments you opened, keeping the first reply that still has a doll "
-        "inside when you have a choice"
+        "TODO: for each doll, get the chain from each of its replies, keep "
+        "the longest one (the first one wins a tie), and put this doll in "
+        "front of it; check every top-level doll the same way and return "
+        "the longest chain"
     )

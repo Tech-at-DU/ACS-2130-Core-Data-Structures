@@ -4,6 +4,7 @@ import os
 import unittest
 
 from comments import (
+    Comment,
     add_reply,
     add_top_level,
     collapse_deleted,
@@ -89,11 +90,44 @@ class CommentDollTests(unittest.TestCase):
             [comment.comment_id for comment in parent.replies], ["c3", "c6"]
         )
 
-    def test_deepest_chain_ends_on_the_first_solid_doll_you_reach(self):
+    def test_deepest_chain_keeps_the_first_chain_on_a_tie(self):
+        # c1 > c2 > c3 > c4 and c1 > c2 > c5 > c6 are the same length.
         chain = deepest_chain(self.thread)
         self.assertEqual(
             [comment.comment_id for comment in chain], ["c1", "c2", "c3", "c4"]
         )
+
+
+class DeepestChainTests(unittest.TestCase):
+    """Small hand-built threads where the deeper branch comes later."""
+
+    def test_deepest_chain_keeps_the_longer_branch_even_when_it_comes_later(self):
+        short = Comment("b1", "pixel_finch", "Short branch.", replies=[
+            Comment("b2", "cobalt_kite", "Stops here."),
+        ])
+        longer = Comment("b3", "maple_orbit", "Longer branch.", replies=[
+            Comment("b4", "quiet_harbor", "One more doll.", replies=[
+                Comment("b5", "juniper_lane", "Solid."),
+            ]),
+        ])
+        thread = [Comment("b0", "pixel_finch", "Root.", replies=[short, longer])]
+        chain = deepest_chain(thread)
+        self.assertEqual(
+            [comment.comment_id for comment in chain], ["b0", "b3", "b4", "b5"]
+        )
+
+    def test_deepest_chain_checks_every_top_level_comment(self):
+        thread = [
+            Comment("t1", "pixel_finch", "Solid on the shelf."),
+            Comment("t2", "cobalt_kite", "Has a reply.", replies=[
+                Comment("t3", "maple_orbit", "Solid."),
+            ]),
+        ]
+        chain = deepest_chain(thread)
+        self.assertEqual([comment.comment_id for comment in chain], ["t2", "t3"])
+
+    def test_deepest_chain_of_an_empty_thread_is_empty(self):
+        self.assertEqual(deepest_chain([]), [])
 
 
 if __name__ == "__main__":
