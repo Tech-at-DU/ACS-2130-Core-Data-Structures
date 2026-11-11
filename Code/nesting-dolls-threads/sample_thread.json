@@ -1,0 +1,117 @@
+{
+  "kind": "Listing",
+  "data": {
+    "children": [
+      {
+        "kind": "t1",
+        "data": {
+          "id": "c1",
+          "author": "pixel_finch",
+          "body": "Friday deploy failed on the checklist. The notes are in this thread.",
+          "deleted": false,
+          "replies": {
+            "kind": "Listing",
+            "data": {
+              "children": [
+                {
+                  "kind": "t1",
+                  "data": {
+                    "id": "c2",
+                    "author": "cobalt_kite",
+                    "body": "The migration step hung.",
+                    "deleted": false,
+                    "replies": {
+                      "kind": "Listing",
+                      "data": {
+                        "children": [
+                          {
+                            "kind": "t1",
+                            "data": {
+                              "id": "c3",
+                              "author": "maple_orbit",
+                              "body": "I left a rollback note on the ticket.",
+                              "deleted": false,
+                              "replies": {
+                                "kind": "Listing",
+                                "data": {
+                                  "children": [
+                                    {
+                                      "kind": "t1",
+                                      "data": {
+                                        "id": "c4",
+                                        "author": "pixel_finch",
+                                        "body": "Rollback finished. The site is serving the previous build.",
+                                        "deleted": false,
+                                        "replies": ""
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "kind": "t1",
+                            "data": {
+                              "id": "c5",
+                              "author": "juniper_lane",
+                              "body": "[deleted]",
+                              "deleted": true,
+                              "replies": {
+                                "kind": "Listing",
+                                "data": {
+                                  "children": [
+                                    {
+                                      "kind": "t1",
+                                      "data": {
+                                        "id": "c6",
+                                        "author": "quiet_harbor",
+                                        "body": "The checklist still says the migration is required.",
+                                        "deleted": false,
+                                        "replies": ""
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "kind": "t1",
+                  "data": {
+                    "id": "c7",
+                    "author": "quiet_harbor",
+                    "body": "Can someone confirm the status page?",
+                    "deleted": false,
+                    "replies": {
+                      "kind": "Listing",
+                      "data": {
+                        "children": [
+                          {
+                            "kind": "t1",
+                            "data": {
+                              "id": "c8",
+                              "author": "cobalt_kite",
+                              "body": "Status page matches the rollback.",
+                              "deleted": false,
+                              "replies": ""
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}
