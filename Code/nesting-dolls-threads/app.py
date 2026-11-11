@@ -15,19 +15,23 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SAMPLE_PATH = os.path.join(BASE_DIR, "sample_thread.json")
 
-# Top-level dolls already on the shelf. Empty until load_thread is hooked up.
-THREAD = []
+# Top-level dolls on the shelf. None until the sample is loaded once.
+# Every route uses this same list, so a post survives the redirect.
+# Restarting the server resets it to the sample.
+THREAD = None
+
+
+def shared_thread():
+    """Load the sample once, then hand back the same list on every request."""
+    global THREAD
+    if THREAD is None:
+        THREAD = comments.load_thread(SAMPLE_PATH)
+    return THREAD
 
 
 @app.get("/")
 def view_thread():
-    # TODO: load the sample thread into Comment dolls with comments.load_thread(SAMPLE_PATH) and render thread.html with that list as thread
-    raise NotImplementedError(
-        "TODO: load the sample thread into Comment dolls with "
-        "comments.load_thread(SAMPLE_PATH) and render thread.html with "
-        "that list as thread"
-    )
-    return render_template("thread.html", thread=THREAD, error=None)
+    return render_template("thread.html", thread=shared_thread(), error=None)
 
 
 @app.post("/comments")
@@ -36,9 +40,10 @@ def post_comment():
     text = request.form.get("text", "").strip()
     if not author or not text:
         abort(400)
-    # TODO: call comments.add_top_level(THREAD, author, text) so the new comment sits on the shelf as its own outermost doll, then delete this raise so the redirect runs
+    thread = shared_thread()
+    # TODO: call comments.add_top_level(thread, author, text) so the new comment sits on the shelf as its own outermost doll, then delete this raise so the redirect runs
     raise NotImplementedError(
-        "TODO: call comments.add_top_level(THREAD, author, text) so the "
+        "TODO: call comments.add_top_level(thread, author, text) so the "
         "new comment sits on the shelf as its own outermost doll, then "
         "delete this raise so the redirect runs"
     )
@@ -52,12 +57,21 @@ def post_reply():
     text = request.form.get("text", "").strip()
     if not parent_id or not author or not text:
         abort(400)
-    # TODO: call comments.add_reply(THREAD, parent_id, author, text) so this reply is nested inside the parent doll, then delete this raise so the redirect runs
-    raise NotImplementedError(
-        "TODO: call comments.add_reply(THREAD, parent_id, author, text) "
-        "so this reply is nested inside the parent doll, then delete this "
-        "raise so the redirect runs"
-    )
+    thread = shared_thread()
+    try:
+        # TODO: call comments.add_reply(thread, parent_id, author, text) so this reply is nested inside the parent doll, then delete this raise so the redirect runs
+        raise NotImplementedError(
+            "TODO: call comments.add_reply(thread, parent_id, author, text) "
+            "so this reply is nested inside the parent doll, then delete this "
+            "raise so the redirect runs"
+        )
+    except LookupError:
+        # add_reply raises LookupError when no comment has parent_id.
+        return render_template(
+            "thread.html",
+            thread=thread,
+            error=f"No comment has the id {parent_id}. Pick an id from the thread.",
+        ), 404
     return redirect(url_for("view_thread"))
 
 
