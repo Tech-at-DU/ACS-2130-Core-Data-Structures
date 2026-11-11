@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% from "_comment.html" import render_comment %}
+
+{% block body %}
+  {% if error %}
+    <p class="banner" role="status">{{ error }}</p>
+  {% endif %}
+
+  <section aria-label="Thread">
+    {# TODO: render each top-level comment by calling render_comment(comment) for every comment in thread #}
+    <p class="placeholder">Top-level dolls are not drawn yet.</p>
+  </section>
+
+  <section>
+    <h2>New top-level comment</h2>
+    <form action="{{ url_for('post_comment') }}" method="post">
+      <label>
+        Author
+        <input name="author" type="text" autocomplete="off" required>
+      </label>
+      <label>
+        Text
+        <textarea name="text" rows="3" required></textarea>
+      </label>
+      <button type="submit">Post</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Reply to a comment</h2>
+    <form action="{{ url_for('post_reply') }}" method="post">
+      <label>
+        Parent comment id
+        <input name="parent_id" type="text" value="c3" autocomplete="off" required>
+      </label>
+      <label>
+        Author
+        <input name="author" type="text" autocomplete="off" required>
+      </label>
+      <label>
+        Text
+        <textarea name="text" rows="3" required></textarea>
+      </label>
+      <button type="submit">Reply</button>
+    </form>
+  </section>
+{% endblock %}

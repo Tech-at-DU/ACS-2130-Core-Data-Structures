@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" role="img" aria-labelledby="dollsTitle dollsDesc">
+  <title id="dollsTitle">Nesting dolls open, stop at the solid doll, then close</title>
+  <desc id="dollsDesc">The outer doll splits open, then the middle doll splits open, leaving a small solid doll. The middle doll closes, then the outer doll closes.</desc>
+  <defs>
+    <clipPath id="left-half" clipPathUnits="objectBoundingBox">
+      <rect x="0" y="0" width="0.5" height="1"/>
+    </clipPath>
+    <clipPath id="right-half" clipPathUnits="objectBoundingBox">
+      <rect x="0.5" y="0" width="0.5" height="1"/>
+    </clipPath>
+    <symbol id="doll" viewBox="-110 -168 220 346" overflow="visible">
+      <path fill="currentColor" stroke="currentColor" stroke-width="6" d="M0,-28 C78,-18 104,48 98,112 C92,176 58,196 0,200 C-58,196 -92,176 -98,112 C-104,48 -78,-18 0,-28 Z"/>
+      <circle cx="0" cy="-86" r="54" fill="#f6d7b8" stroke="currentColor" stroke-width="6"/>
+      <path fill="#f4e3b0" d="M-50,-52 Q0,-18 50,-52 L40,-34 Q0,0 -40,-34 Z"/>
+      <rect x="-62" y="28" width="124" height="20" rx="6" fill="#f4e3b0"/>
+      <circle cx="-18" cy="-92" r="5" fill="#3a2a1a"/>
+      <circle cx="18" cy="-92" r="5" fill="#3a2a1a"/>
+      <path d="M-20,-74 Q0,-60 20,-74" fill="none" stroke="#6b3a2a" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="-32" cy="-76" rx="8" ry="4" fill="#e7a08a" opacity="0.85"/>
+      <ellipse cx="32" cy="-76" rx="8" ry="4" fill="#e7a08a" opacity="0.85"/>
+    </symbol>
+  </defs>
+  <style>
+    .move { animation-duration: 8s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+    .outer-l { animation-name: outer-l; color: #c23b3b; }
+    .outer-r { animation-name: outer-r; color: #c23b3b; }
+    .mid-l { animation-name: mid-l; color: #1f6f8b; }
+    .mid-r { animation-name: mid-r; color: #1f6f8b; }
+    .solid { color: #e2b657; animation: solid-glow 8s ease-in-out infinite; transform-origin: 480px 223px; }
+    .cap { font-family: Georgia, "Times New Roman", serif; font-size: 28px; fill: #1c2b33; }
+    .show-open { animation: show-open 8s ease-in-out infinite; }
+    .show-solid { animation: show-solid 8s ease-in-out infinite; }
+    .show-close { animation: show-close 8s ease-in-out infinite; }
+    @keyframes outer-l {
+      0%, 10% { transform: translateX(0); }
+      24%, 74% { transform: translateX(-155px); }
+      90%, 100% { transform: translateX(0); }
+    }
+    @keyframes outer-r {
+      0%, 10% { transform: translateX(0); }
+      24%, 74% { transform: translateX(155px); }
+      90%, 100% { transform: translateX(0); }
+    }
+    @keyframes mid-l {
+      0%, 26% { transform: translateX(0); }
+      40%, 58% { transform: translateX(-112px); }
+      72%, 100% { transform: translateX(0); }
+    }
+    @keyframes mid-r {
+      0%, 26% { transform: translateX(0); }
+      40%, 58% { transform: translateX(112px); }
+      72%, 100% { transform: translateX(0); }
+    }
+    @keyframes solid-glow {
+      0%, 32% { transform: scale(1); }
+      48% { transform: scale(1.12); }
+      62%, 100% { transform: scale(1); }
+    }
+    @keyframes show-open {
+      0%, 12% { opacity: 0; }
+      20%, 32% { opacity: 1; }
+      40%, 100% { opacity: 0; }
+    }
+    @keyframes show-solid {
+      0%, 38% { opacity: 0; }
+      46%, 60% { opacity: 1; }
+      68%, 100% { opacity: 0; }
+    }
+    @keyframes show-close {
+      0%, 68% { opacity: 0; }
+      76%, 92% { opacity: 1; }
+      98%, 100% { opacity: 0; }
+    }
+  </style>
+  <rect width="960" height="500" fill="#f7f1e8"/>
+  <text x="480" y="36" text-anchor="middle" fill="#126893" font-family="Georgia, serif" font-size="26">Nesting dolls</text>
+  <line x1="70" y1="430" x2="890" y2="430" stroke="#e0d2c0" stroke-width="3"/>
+
+  <g class="solid">
+    <use href="#doll" x="432" y="148" width="96" height="150"/>
+  </g>
+
+  <g class="move mid-l">
+    <use href="#doll" x="402" y="108" width="156" height="244" clip-path="url(#left-half)"/>
+  </g>
+  <g class="move mid-r">
+    <use href="#doll" x="402" y="108" width="156" height="244" clip-path="url(#right-half)"/>
+  </g>
+
+  <g class="move outer-l">
+    <use href="#doll" x="345" y="48" width="270" height="360" clip-path="url(#left-half)"/>
+  </g>
+  <g class="move outer-r">
+    <use href="#doll" x="345" y="48" width="270" height="360" clip-path="url(#right-half)"/>
+    <circle cx="552" cy="286" r="16" fill="#f4e3b0" stroke="#6e1d1d" stroke-width="3"/>
+    <circle cx="552" cy="286" r="6" fill="#c23b3b"/>
+  </g>
+
+  <text class="cap show-open" x="480" y="472" text-anchor="middle">Open: look inside</text>
+  <text class="cap show-solid" x="480" y="472" text-anchor="middle">Solid doll: stop</text>
+  <text class="cap show-close" x="480" y="472" text-anchor="middle">Close back up</text>
+</svg>

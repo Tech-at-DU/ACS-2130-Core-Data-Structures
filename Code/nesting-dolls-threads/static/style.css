@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #f7f1e8;
+  color: #1c2b33;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.45;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+}
+
+h1 {
+  color: #126893;
+  margin-bottom: 0.25rem;
+}
+
+label {
+  display: block;
+  margin: 0.75rem 0;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+button {
+  background: #126893;
+  color: #fff;
+  border: 0;
+  padding: 0.45rem 0.9rem;
+  font: inherit;
+}
+
+.banner {
+  border: 2px solid #8a6a1f;
+  background: #fff8e8;
+  padding: 0.75rem 1rem;
+}
+
+.placeholder {
+  color: #5c6b73;
+}
+
+section + section {
+  margin-top: 1.5rem;
+}
